@@ -18,9 +18,9 @@ int main(){
 }
 
 void clear(Vector *vector){
-free(vector->ptr);
-vector->ptr = NULL;
-vector->size = 0;
-vector->capacity = 0;
+    free(vector->ptr);
+    vector->ptr = NULL;
+    vector->size = 0;
+    vector->capacity = 0;
 
 }
